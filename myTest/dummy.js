@@ -5,7 +5,7 @@ describe('Test Load', function(){
           cy.visit('https://members-staging.teamrwb.org/login')
           cy.get('input.TextInput_textInput__1ZPI7 formInput').type('retrorwbtest+1@gmail.com')
           cy.get('input.TextInput_textInput__1ZPI7 formInput').type('retronyms@123')
-
+          cy.log(hi)
           
     })
 })
